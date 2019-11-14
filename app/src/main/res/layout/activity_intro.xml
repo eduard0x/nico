@@ -4,12 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".intro">
+    tools:context=".intro"
+    android:background="#02B8D7"
+
+    >
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:rotation="20"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

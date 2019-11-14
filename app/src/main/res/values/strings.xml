@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">nicoclock</string>
+    <string name="title_activity_alarmas">Mis Alarmas</string>
 </resources>
