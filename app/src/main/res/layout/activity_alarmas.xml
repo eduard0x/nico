@@ -35,4 +35,12 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@drawable/new_alarm" />
 
+    <ListView
+        android:id="@+id/alarmas_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginRight="16dp" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

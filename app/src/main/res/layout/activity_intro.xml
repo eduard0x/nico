@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#866EBB"
     tools:context=".intro"
-    android:background="#02B8D7"
 
     >
 

@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void entrar(){
-        Intent a = new Intent(this,alarmas.class);
+        Intent a = new Intent(this,misAlarmas.class);
         startActivity(a);
         finish();
     }
