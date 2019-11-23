@@ -9,12 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ajustar_alarma"></activity>
+        <activity android:name=".alarma2"></activity>
+        <activity android:name=".ajustar_alarma" />
         <activity android:name=".misAlarmas" />
-        <activity
-            android:name=".alarmas"
-            android:label="@string/title_activity_alarmas"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".intro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +21,9 @@
         </activity>
         <activity android:name=".registro" />
         <activity android:name=".MainActivity" />
+        <receiver android:name=".myAlarm">
+
+        </receiver>
     </application>
 
 </manifest>
